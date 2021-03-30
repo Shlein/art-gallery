@@ -1,0 +1,25 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.accordion {
+  margin: 0 auto;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    cursor: pointer;
+  }
+
+  &__info {
+    width: 100%;
+    color: #000;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s ease-in-out;
+  }
+
+}
